@@ -4,3 +4,10 @@
 vsc-extension-quickstart.md
 src/**
 extras/**
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.github/**
+static/*.svg
