@@ -1,4 +1,5 @@
-![Skeletor Syntax Banner](./static/banner.png)
+![Skeletor Syntax
+Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/static/banner.png)
 
 A *dark* syntax theme inspired by Skeletor from *He-Man and the Masters of the
 Universe*. This theme is based on the [PrismJS
@@ -7,7 +8,8 @@ Syntax](https://ramonmcros.com/skeletor-syntax/) created by Ramón M. Cros.
 
 --------------------------------------------------------------------------------
 
-![Main Screenshot](./static/screenshot.png)
+![Main
+Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/static/screenshot.png)
 
 --------------------------------------------------------------------------------
 
@@ -46,4 +48,6 @@ following editors and syntax highlighting libraries:
 -   highlight.js
 
 Additionally, the original PrismJS file by Ramón M. Cros is included in the
-`extras` folder for completeness.
+[`extras`
+folder](https://github.com/dieghernan/skeletor-syntax-vscode-theme/tree/main/extras)
+for completeness.
