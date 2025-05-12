@@ -1,0 +1,45 @@
+{
+  "name": "skeletor-syntax",
+  "displayName": "Skeletor Syntax",
+  "description": "VS Code theme based on Skeletor Syntax by Ramón M. Cros",
+  "publisher": "dieghernan",
+  "license": "MIT",
+  "version": "0.0.1",
+  "maintainers": [
+    "dieghernan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "skeletor",
+    "theme",
+    "dark-theme",
+    "color-theme"
+  ],
+  "icon": "static/icon.png",
+  "galleryBanner": {
+    "color": "#2B2836",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Skeletor Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/skeletor-syntax-color-theme.json",
+        "ord": "SKELETOR SYNTAX"
+      }
+    ]
+  }
+}
