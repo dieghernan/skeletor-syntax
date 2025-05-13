@@ -44,8 +44,9 @@ various languages:
 
 The [main
 repository](https://github.com/dieghernan/skeletor-syntax-vscode-theme) also
-includes **consistent versions** of this theme in the `extras` folder for the
-following editors and syntax highlighting libraries:
+includes **consistent versions** of this theme in the [`extras`
+folder](https://github.com/dieghernan/skeletor-syntax-vscode-theme/tree/main/extras)
+folder for the following editors and syntax highlighting libraries:
 
 -   RStudio
 -   TextMate/Sublime
