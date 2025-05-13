@@ -37,8 +37,7 @@
       {
         "label": "Skeletor Syntax",
         "uiTheme": "vs-dark",
-        "path": "./themes/skeletor-syntax-color-theme.json",
-        "ord": "SKELETOR SYNTAX"
+        "path": "./themes/skeletor-syntax-color-theme.json"
       }
     ]
   }

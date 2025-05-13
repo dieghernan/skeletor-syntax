@@ -44,6 +44,7 @@ tmtheme2rstheme(tminput, rtheme_out)
 # Apply the new theme
 rstudioapi::addTheme(rtheme_out, apply = TRUE, force = TRUE)
 
+
 #  Register themes ----
 library(jsonlite)
 library(tidyverse)
@@ -61,7 +62,8 @@ the_df <- lapply(myvs, function(x) {
 }) %>%
   bind_rows() %>%
   mutate(ord = toupper(label)) |>
-  arrange(ord)
+  arrange(ord) |>
+  select(-ord)
 
 
 tm <- list()
