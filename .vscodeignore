@@ -11,3 +11,5 @@ extras/**
 *.Rproj
 .github/**
 static/*.svg
+static/banner*
+static/screenshot*
