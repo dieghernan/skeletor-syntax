@@ -6,8 +6,8 @@ vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://
 ![Skeletor Syntax
 Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/static/banner.png)
 
-A *dark* syntax theme inspired by Skeletor from *He-Man and the Masters of the
-Universe*. This theme is based on the [PrismJS
+A *dark* syntax theme with purple accents inspired by Skeletor from *He-Man and
+the Masters of the Universe*. This theme is based on the [PrismJS
 version](https://ramonmcros.com/skeletor-syntax/prism.html) of [Skeletor
 Syntax](https://ramonmcros.com/skeletor-syntax/) created by Ramón M. Cros.
 

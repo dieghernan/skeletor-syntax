@@ -4,7 +4,7 @@
   "description": "VS Code theme based on Skeletor Syntax by Ramón M. Cros",
   "publisher": "dieghernan",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "maintainers": [
     "dieghernan"
   ],
@@ -21,6 +21,9 @@
   "categories": [
     "Themes"
   ],
+  "sponsor": {
+    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme?sponsor=1"
+  },
   "keywords": [
     "skeletor",
     "theme",
@@ -32,6 +35,18 @@
     "color": "#2B2836",
     "theme": "dark"
   },
+  "badges": [
+    {
+      "url": "https://img.shields.io/github/license/dieghernan/skeletor-syntax-vscode-theme",
+      "href": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/blob/main/LICENSE",
+      "description": "MIT License"
+    },
+    {
+      "url": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+      "href": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/pulls",
+      "description": "PRs Welcome"
+    }
+  ],
   "contributes": {
     "themes": [
       {
