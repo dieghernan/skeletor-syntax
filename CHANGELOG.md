@@ -4,7 +4,7 @@
 
 -   Accent color changed to `purple`
 
-## RStudio
+### RStudio
 
 -   Improvement in scrollbars: Only applies for Tab Panels, not to other
     scrollbars in menus, etc.
