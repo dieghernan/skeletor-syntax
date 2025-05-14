@@ -1,0 +1,17 @@
+GIMP Palette
+Name: Skeletor
+Columns: 1
+# Author: dieghernan
+255	255	255	white
+220	231	253	lightblue
+243	228	162	yellow
+255	183	147	orange
+243	106	102	red
+255	138	219	orchid
+189	147	249	purple
+147	180	255	blue
+123	148	165	bluegray
+132	251	162	green
+197	200	198	verylightgray
+43	40	54	background
+101	94	127	comments

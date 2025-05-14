@@ -13,4 +13,5 @@ extras/**
 static/*.svg
 static/banner*
 static/screenshot*
+static/*.gpl
 .imgbotconfig
