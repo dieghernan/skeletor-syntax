@@ -1,4 +1,4 @@
-# [Skeletor Syntax](https://marketplace.visualstudio.com/items?itemName=dieghernan.skeletor-syntax)
+# Skeletor Syntax
 
 [![Preview in
 vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/editor/theme/dieghernan.skeletor-syntax/Skeletor%20Syntax)
@@ -28,6 +28,9 @@ Preferences:
     Alternatively, press `CMD + Shift + P`, type `> color theme`, and choose
     `Skeletor Syntax`.
 
+See also Skeletor Syntax in the [VisualStudio
+Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.skeletor-syntax).
+
 ## Language Support
 
 The Skeletor Syntax theme supports `language-*` rules and is optimized for
@@ -48,12 +51,10 @@ includes **consistent versions** of this theme in the [`extras`
 folder](https://github.com/dieghernan/skeletor-syntax-vscode-theme/tree/main/extras)
 folder for the following editors and syntax highlighting libraries:
 
--   RStudio
--   TextMate/Sublime
--   Pygments (compatible with Jekyll static site generator)
--   highlight.js
+-   **RStudio**
+-   **TextMate/Sublime**
+-   **Pygments** (compatible with **Jekyll** static site generator)
+-   **highlight.js**
 
 Additionally, the original PrismJS file by Ramón M. Cros is included in the
-[`extras`
-folder](https://github.com/dieghernan/skeletor-syntax-vscode-theme/tree/main/extras)
-for completeness.
+`extras` folder for completeness.
