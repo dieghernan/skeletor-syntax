@@ -1,3 +1,7 @@
+## v0.1.2
+
+-   Update icons.
+
 ## v0.1.1
 
 ### VSCode
