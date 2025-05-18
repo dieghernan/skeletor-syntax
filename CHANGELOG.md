@@ -1,3 +1,8 @@
+## v0.1.3
+
+-   Also available in <https://open-vsx.org/> 
+    [[Link]](https://open-vsx.org/extension/dieghernan/skeletor-syntax).
+
 ## v0.1.2
 
 -   Update icons.

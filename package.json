@@ -4,7 +4,7 @@
   "description": "VS Code theme based on Skeletor Syntax by Ramón M. Cros",
   "publisher": "dieghernan",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "maintainers": [
     "dieghernan"
   ],
@@ -16,7 +16,7 @@
     "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/issues"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.95.0"
   },
   "categories": [
     "Themes"
