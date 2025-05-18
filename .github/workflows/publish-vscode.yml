@@ -2,6 +2,7 @@ on:
   push:
     tags:
       - "*"
+  workflow_dispatch:
 
 name: Deploy Extension
 jobs:
@@ -12,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: npm install --package-lock-only # Create package lock
       - run: npm ci
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v2
