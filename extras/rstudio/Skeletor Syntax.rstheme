@@ -64,7 +64,11 @@
 }
 
 .ace_keyword.ace_operator {
-  color: #F3E4A2;
+  color: #BD93F9;
+}
+
+.ace_keyword.ace_other.ace_unit {
+  color: #DCE7FD;
 }
 
 .ace_constant.ace_language {
@@ -75,16 +79,16 @@
   color: #FF8ADB;
 }
 
-.ace_constant.ace_other {
-  color: #93B4FF;
-}
-
 .ace_support.ace_function {
   color: #BD93F9;
 }
 
 .ace_support.ace_type {
   color: #DCE7FD;
+}
+
+.ace_storage {
+  color: #BD93F9;
 }
 
 .ace_invalid {
@@ -107,7 +111,11 @@
   color: #BD93F9;
 }
 
-.ace_entity.ace_other.ace_attribute-name {
+.ace_meta.ace_tag {
+  color: #F3E4A2;
+}
+
+.ace_meta.ace_selector {
   color: #BD93F9;
 }
 
@@ -115,12 +123,9 @@
   color: #BD93F9;
 }
 
-.ace_entity.ace_name.ace_tag {
-  color: #F3E4A2;
-}
-
 .ace_markup.ace_heading {
-  color: #BD93F9;
+  font-weight: bold;
+  color: #FF8ADB;
 }
 
 .nocolor.ace_editor .ace_line span {
@@ -2374,7 +2379,15 @@
 /* Generated and tested in RStudio 2025.05.0+496 ("Mariposa Orchid") */
 /* Rules from tmTheme */
 .ace_constant {
-  color: #F3E4A2;
+  color: #BD93F9;
+}
+
+.ace_constant.ace_language {
+  color: #FF8ADB;
+}
+
+.ace_constant.ace_other {
+  color: #DCE7FD;
 }
 
 .ace_cursor {
@@ -2382,7 +2395,16 @@
 }
 
 .ace_heading {
-  color: #BD93F9;
+  color: #FF8ADB;
+  font-weight: bold;
+}
+
+.ace_keyword.ace_operator {
+  color: #F3E4A2;
+}
+
+.ace_markup.ace_href {
+  color: #93B4FF;
 }
 
 .ace_print-margin {
@@ -2651,4 +2673,12 @@ $comment: grey90 !default;
 .rstudio-themes-flat .gwt-TabLayoutPanelContentContainer, .rstudio-themes-dark-grey .gwt-TabLayoutPanelContentContainer, .rstudio-themes-default .gwt-TabLayoutPanelContentContainer {
   scrollbar-width: auto;
   scrollbar-color: #483d5d #2e2a3a;
+}
+
+.ace_markup.ace_heading {
+  color: #DCE7FD;
+}
+
+.ace_heading {
+  color: #BD93F9;
 }

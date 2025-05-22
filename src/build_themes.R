@@ -40,6 +40,15 @@ rtheme_out <- tools::file_path_sans_ext(tminput) |>
 
 tmtheme2rstheme(tminput, rtheme_out)
 
+# Skeletor Markdown here:
+readLines(rtheme_out) %>%
+  c(
+    ".ace_markup.ace_heading {color: #DCE7FD;}",
+    ".ace_heading {color: #BD93F9;}"
+  ) |>
+  # Compile and write
+  sass::sass(output = rtheme_out, cache = FALSE)
+
 
 # Apply the new theme
 rstudioapi::addTheme(rtheme_out, apply = TRUE, force = TRUE)
