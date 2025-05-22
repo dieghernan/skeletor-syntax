@@ -4,7 +4,7 @@
 vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/editor/theme/dieghernan.skeletor-syntax/Skeletor%20Syntax)
 
 ![Skeletor Syntax
-Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/assets/banner.png)
+Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/banner.png)
 
 A *dark* syntax theme with purple accents inspired by Skeletor from *He-Man and
 the Masters of the Universe*. This theme is based on the [PrismJS
@@ -17,9 +17,9 @@ Available for:
     Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.skeletor-syntax))
 -   **RStudio**
 -   **TextMate/Sublime**
--   **Pygments** (compatible with the **Jekyll** static site generator)
+-   **Pygments** (compatible with **Jekyll** static site generator)
 -   **highlight.js**
--   **Prism.js**
+-   **Prism.js** (original file by Ramón M. Cros).
 
 ```         
 .
@@ -52,4 +52,4 @@ Skeletor Syntax supports `language-*` rules and is optimized for:
 --------------------------------------------------------------------------------
 
 ![Main
-Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/assets/screenshot.png)
+Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/screenshot.png)

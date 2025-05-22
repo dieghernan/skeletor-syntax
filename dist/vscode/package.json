@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme.git"
+    "url": "https://github.com/dieghernan/skeletor-syntax.git"
   },
   "bugs": {
-    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/issues"
+    "url": "https://github.com/dieghernan/skeletor-syntax/issues"
   },
   "engines": {
     "vscode": "^1.95.0"
@@ -22,7 +22,7 @@
     "Themes"
   ],
   "sponsor": {
-    "url": "https://github.com/dieghernan/skeletor-syntax-vscode-theme?sponsor=1"
+    "url": "https://github.com/dieghernan/skeletor-syntax?sponsor=1"
   },
   "keywords": [
     "skeletor",
@@ -37,13 +37,13 @@
   },
   "badges": [
     {
-      "url": "https://img.shields.io/github/license/dieghernan/skeletor-syntax-vscode-theme",
-      "href": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/blob/main/LICENSE",
+      "url": "https://img.shields.io/github/license/dieghernan/skeletor-syntax",
+      "href": "https://github.com/dieghernan/skeletor-syntax/blob/main/LICENSE",
       "description": "MIT License"
     },
     {
       "url": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
-      "href": "https://github.com/dieghernan/skeletor-syntax-vscode-theme/pulls",
+      "href": "https://github.com/dieghernan/skeletor-syntax/pulls",
       "description": "PRs Welcome"
     }
   ],

@@ -1,7 +1,7 @@
 # Skeletor Syntax
 
 ![Skeletor Syntax
-Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/assets/banner.png)
+Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/banner.png)
 
 A *dark* syntax theme with purple accents inspired by Skeletor from *He-Man and
 the Masters of the Universe*. This theme is based on the [PrismJS
@@ -10,7 +10,7 @@ Syntax](https://ramonmcros.com/skeletor-syntax/) created by Ramón M. Cros.
 
 --------------------------------------------------------------------------------
 
-![Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax-vscode-theme/main/assets/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/screenshot.png)
 
 --------------------------------------------------------------------------------
 
@@ -37,11 +37,10 @@ Skeletor Syntax supports `language-*` rules and is optimized for:
 
 ## Want More?
 
-The [main
-repository](https://github.com/dieghernan/skeletor-syntax-vscode-theme) also
+The [main repository](https://github.com/dieghernan/skeletor-syntax) also
 includes **consistent versions** of this theme in the [`dist`
-folder](https://github.com/dieghernan/skeletor-syntax-vscode-theme/tree/main/dist)
-for the following editors and syntax highlighting libraries:
+folder](https://github.com/dieghernan/skeletor-syntax/tree/main/dist) for the
+following editors and syntax highlighting libraries:
 
 -   **RStudio**
 -   **TextMate/Sublime**

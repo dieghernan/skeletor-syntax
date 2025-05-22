@@ -1,6 +1,7 @@
 ## v0.2.0
 
 -   Project moved to monorepo structure.
+-   Repo moved to <https://github.com/dieghernan/skeletor-syntax>.
 
 ### VSCode/RStudio/tmTheme
 
