@@ -95,25 +95,13 @@ pre[class*="language-"] {
   cursor: help;
 }
 
-
 .language-javascript {
   color: #dce7fd;
 }
 
-.language-javascript .token.keyword {
-  color: #f3e4a2;
-}
-
-.language-javascript .token.class-name {
-  color: #93b4ff;
-}
-
-
-
 .language-css .token.url {
   color: #84fba2;
 }
-
 
 .language-scss .token.string {
   color: #dce7fd;
@@ -127,7 +115,13 @@ pre[class*="language-"] {
   color: #84fba2;
 }
 
+.language-javascript .token.keyword {
+  color: #f3e4a2;
+}
 
+.language-javascript .token.class-name {
+  color: #93b4ff;
+}
 
 .language-php .token.keyword {
   color: #84fba2;
@@ -141,8 +135,6 @@ pre[class*="language-"] {
   color: #7b94a5;
 }
 
-
-
 .language-yaml .token.scalar.string {
   color: #93b4ff;
 }
@@ -154,8 +146,6 @@ pre[class*="language-"] {
 .language-yaml .token.important {
   color: #84fba2;
 }
-
-
 
 .language-markdown .token.title.important {
   color: #bd93f9;
@@ -194,7 +184,7 @@ pre.line-numbers > code {
   font-size: 100%;
   left: -3.8em;
   width: 3em;
-
+  /* works for line-numbers below 1000 lines */
   letter-spacing: -1px;
   border-right: 1px solid #655e7f;
   -webkit-user-select: none;
