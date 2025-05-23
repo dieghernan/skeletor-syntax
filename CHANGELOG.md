@@ -1,3 +1,9 @@
+## v0.2.1
+
+### RStudio
+
+-   Improve theme and syntax highlighting.
+
 ## v0.2.0
 
 -   Project moved to monorepo structure.

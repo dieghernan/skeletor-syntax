@@ -189,17 +189,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>url</string>
-        <key>scope</key>
-        <string>markup.underline.link</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#DCE7FD</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>variable</string>
         <key>scope</key>
         <string>variable.other.object</string>
@@ -499,9 +488,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Skeletor Markdown url</string>
+        <string>url</string>
         <key>scope</key>
-        <string>text.html.markdown markup.underline.link</string>
+        <string>markup.underline.link</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

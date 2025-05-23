@@ -156,13 +156,6 @@
       }
     },
     {
-      "name": "url",
-      "scope": "markup.underline.link",
-      "settings": {
-        "foreground": "#DCE7FD"
-      }
-    },
-    {
       "name": "variable",
       "scope": "variable.other.object",
       "settings": {
@@ -433,8 +426,8 @@
       }
     },
     {
-      "name": "Skeletor Markdown url",
-      "scope": "text.html.markdown markup.underline.link",
+      "name": "url",
+      "scope": "markup.underline.link",
       "settings": {
         "foreground": "#93B4FF"
       }
