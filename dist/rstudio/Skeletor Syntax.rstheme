@@ -2445,7 +2445,6 @@
 
 .ace_entity.ace_other {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_entity.ace_other.ace_document {
@@ -2600,12 +2599,10 @@
 
 .ace_punctuation {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_punctuation.ace_definition {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_punctuation.ace_definition.ace_alias {
@@ -2624,7 +2621,6 @@
 
 .ace_punctuation.ace_section {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_punctuation.ace_section.ace_embedded {
@@ -2633,86 +2629,6 @@
 }
 
 .ace_punctuation.ace_separator {
-  color: #DCE7FD;
-}
-
-.ace_source {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_css {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_css support {
-  color: #DCE7FD;
-}
-
-.ace_source.ace_css.ace_scss keyword {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_css.ace_scss storage {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_css.ace_scss string {
-  color: #DCE7FD;
-}
-
-.ace_source.ace_css.ace_scss variable {
-  color: #84FBA2;
-}
-
-.ace_source.ace_js constant {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_js constant.ace_language {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_js keyword {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_js storage {
-  color: #F3E4A2;
-}
-
-.ace_source.ace_js support {
-  color: #93B4FF;
-}
-
-.ace_source.ace_js support.ace_class {
-  color: #93B4FF;
-}
-
-.ace_source.ace_php constant {
-  color: #FF8ADB;
-}
-
-.ace_source.ace_php constant.ace_language {
-  color: #FF8ADB;
-}
-
-.ace_source.ace_php keyword {
-  color: #84FBA2;
-}
-
-.ace_source.ace_php storage {
-  color: #84FBA2;
-}
-
-.ace_source.ace_php variable {
-  color: #84FBA2;
-}
-
-.ace_source.ace_php variable.ace_language {
-  color: #84FBA2;
-}
-
-.ace_source.ace_yaml string {
   color: #DCE7FD;
 }
 
@@ -2760,38 +2676,12 @@
   color: #93B4FF;
 }
 
-.ace_text {
-  color: #84FBA2;
-}
-
-.ace_text.ace_yaml markup {
-  color: #84FBA2;
-}
-
-.ace_text.ace_yaml markup.ace_heading {
-  color: #84FBA2;
-}
-
-.ace_text.ace_yaml meta {
-  color: #84FBA2;
-}
-
-.ace_text.ace_yaml meta.ace_directives {
-  color: #84FBA2;
-}
-
-.ace_text.ace_yaml string {
-  color: #DCE7FD;
-}
-
 .ace_variable {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_variable.ace_other {
   color: #FF8ADB;
-  font-weight: bold;
 }
 
 .ace_variable.ace_other.ace_alias {
