@@ -21,7 +21,7 @@
 }
 
 .ace_marker-layer .ace_selection {
-  background: #55535E;
+  background: #35323F;
 }
 
 .ace_selection.ace_start {
@@ -35,19 +35,19 @@
 
 .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid #363340;
+  border: 1px solid #464258;
 }
 
 .ace_marker-layer .ace_active-line {
-  background: #55535E;
+  background: #35323F;
 }
 
 .ace_gutter-active-line {
-  background-color: #55535E;
+  background-color: #35323F;
 }
 
 .ace_marker-layer .ace_selected-word {
-  border: 1px solid #55535E;
+  border: 1px solid #35323F;
 }
 
 .ace_fold {
@@ -56,7 +56,7 @@
 }
 
 .ace_invisible {
-  color: #363340;
+  color: #464258;
 }
 
 .ace_keyword {
@@ -2376,14 +2376,14 @@
   background: linear-gradient(to left, #dc91dbbb 1px, #dc91db77 1px, #dc91db77);
 }
 
-/* Generated and tested in RStudio 2025.05.0+496 ("Mariposa Orchid") */
+/* Generated and tested in RStudio 2025.09.1+401.pro2 ("Cucumberleaf Sunflower") */
 /* Rules from tmTheme */
 .ace_cursor {
   color: #BD93F9;
 }
 
 .ace_print-margin {
-  background: #363340;
+  background: #464258;
 }
 
 .ace_comment {
@@ -2957,7 +2957,7 @@ $comment: grey90 !default;
 /* job progress bar */
 .rstheme_toolbarWrapper [role="progressbar"] > div,
 .windowframe [role="progressbar"] > div {
-  background-color: #55535e;
+  background-color: #35323f;
 }
 
 .rstudio-themes-dark-grey input[type="checkbox" i] {

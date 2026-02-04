@@ -1,4 +1,6 @@
 # Create vscode (json) and RStudio (rstheme) variants using tmTheme as base
+# https://tmtheme-editor.linuxbox.ninja/
+# https://github.com/aziz/tmTheme-Editor/issues/275
 
 library(tidyverse)
 tminput <- "./dist/tmtheme/Skeletor Syntax.tmTheme"
@@ -52,6 +54,7 @@ readLines(rtheme_out) %>%
 
 # Apply the new theme
 rstudioapi::addTheme(rtheme_out, apply = TRUE, force = TRUE)
+
 
 
 #  Register themes ----
