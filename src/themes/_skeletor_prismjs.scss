@@ -1,4 +1,4 @@
-/* Skeletor Syntax 0.3.0
+/* Skeletor Syntax 0.3.1
  *
  * https://github.com/ramonmcros/skeletor-syntax
  *
@@ -7,7 +7,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
   color: #dce7fd;
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: Consolas, Monaco, "Andale Mono", monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -26,7 +26,7 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: .5em 0;
+  margin: 0.5em 0;
   overflow: auto;
   border-radius: 0.3em;
 }
@@ -38,8 +38,8 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
+  padding: 0.1em;
+  border-radius: 0.3em;
 }
 
 .token.comment,
@@ -54,7 +54,7 @@ pre[class*="language-"] {
 }
 
 .namespace {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .token.string,

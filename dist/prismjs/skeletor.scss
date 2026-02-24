@@ -1,19 +1,19 @@
-/* Skeletor Syntax 0.3.0 https://github.com/ramonmcros/skeletor-syntax Code licensed under the MIT license */
-code[class*="language-"], pre[class*="language-"] { color: #dce7fd; font-family: Consolas, Monaco, 'Andale Mono', monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
+/* Skeletor Syntax 0.3.1 https://github.com/ramonmcros/skeletor-syntax Code licensed under the MIT license */
+code[class*="language-"], pre[class*="language-"] { color: #dce7fd; font-family: Consolas, Monaco, "Andale Mono", monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
 
 /* Code blocks */
-pre[class*="language-"] { padding: 1em; margin: .5em 0; overflow: auto; border-radius: 0.3em; }
+pre[class*="language-"] { padding: 1em; margin: 0.5em 0; overflow: auto; border-radius: 0.3em; }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] { background: #2b2836; }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] { padding: .1em; border-radius: .3em; }
+:not(pre) > code[class*="language-"] { padding: 0.1em; border-radius: 0.3em; }
 
 .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #655e7f; }
 
 .token.punctuation { color: #dce7fd; }
 
-.namespace { opacity: .7; }
+.namespace { opacity: 0.7; }
 
 .token.string, .token.attr-value, .token.property, .token.constant, .token.symbol, .token.deleted { color: #93b4ff; }
 

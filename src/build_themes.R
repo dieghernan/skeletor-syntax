@@ -1,61 +1,12 @@
-# Create vscode (json) and RStudio (rstheme) variants using tmTheme as base
-# https://tmtheme-editor.linuxbox.ninja/
-# https://github.com/aziz/tmTheme-Editor/issues/275
+# Create tmtTheme variants using VSCode as base
 
-library(tidyverse)
-tminput <- "./dist/tmtheme/Skeletor Syntax.tmTheme"
+library(rstudiothemes)
 
-# Beautify tmTheme
-xml2::read_xml(tminput) %>%
-  xml2::write_xml(tminput)
-
-source("src/functions.R")
-
-# VScode -----
-output <- basename(tminput) %>%
-  str_replace_all(".tmTheme", "-color-theme.json") %>%
-  str_replace_all(" ", "-") %>%
-  file.path("dist", "vscode", "themes", .) |>
-  tolower()
-
-output
-
-tmtheme2vscode(tminput, output)
-
-# Prettify output
-read_json(output) |>
-  write_json(path = output, auto_unbox = TRUE, pretty = TRUE)
-
-# And get type of theme here
-them_type <- read_json(output)$type
-
-message(basename(tminput), " is ", them_type)
-
-# RStudio Theme ----
-
-outdir <- "./dist/rstudio"
-rtheme_out <- tools::file_path_sans_ext(tminput) |>
-  basename() |>
-  paste0(".rstheme") %>%
-  file.path(outdir, .)
-
-
-tmtheme2rstheme(tminput, rtheme_out)
-
-# Skeletor Markdown here:
-readLines(rtheme_out) %>%
-  c(
-    ".ace_markup.ace_heading {color: #DCE7FD;}",
-    ".ace_heading {color: #BD93F9;}"
-  ) |>
-  # Compile and write
-  sass::sass(output = rtheme_out, cache = FALSE)
-
-
-# Apply the new theme
-rstudioapi::addTheme(rtheme_out, apply = TRUE, force = TRUE)
-
-
+# tmTheme
+go <- convert_vs_to_tm_theme(
+  "./dist/vscode/themes/skeletor-syntax-color-theme.json",
+  "./dist/tmtheme/Skeletor Syntax.tmTheme"
+)
 
 #  Register themes ----
 library(jsonlite)
@@ -93,8 +44,6 @@ for (i in seq_len(nrow(the_df))) {
 }
 
 toJSON(tm, pretty = TRUE)
-
-
 
 
 # Package json
@@ -140,25 +89,26 @@ for (f in all_pygments) {
     file.path("./dist", "pygments", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")
   )
 }
-
 
 
 ## Prismjs ----
@@ -182,19 +132,21 @@ for (f in all_prism) {
     file.path("./dist", "prismjs", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")
@@ -222,19 +174,21 @@ for (f in all_hljs) {
     file.path("./dist", "hljs", .)
   in_f <- readLines(f)
 
-
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_sass,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
 
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css,
     cache = FALSE,
     options = sass::sass_options(output_style = "compact")
   )
-  comp <- sass::sass(in_f,
+  comp <- sass::sass(
+    in_f,
     output = out_css_min,
     cache = FALSE,
     options = sass::sass_options(output_style = "compressed")

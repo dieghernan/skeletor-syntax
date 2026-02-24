@@ -6,22 +6,22 @@ vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://
 ![Skeletor Syntax
 Banner](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/banner.png)
 
-A *dark* syntax theme with purple accents inspired by Skeletor from *He-Man and
-the Masters of the Universe*. This theme is based on the [PrismJS
+A _dark_ syntax theme with purple accents inspired by Skeletor from _He-Man and
+the Masters of the Universe_. This theme is based on the [PrismJS
 version](https://ramonmcros.com/skeletor-syntax/prism.html) of [Skeletor
 Syntax](https://ramonmcros.com/skeletor-syntax/) created by Ramón M. Cros.
 
 Available for:
 
--   **Visual Studio Code** (view in [Visual Studio
-    Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.skeletor-syntax))
--   **RStudio**
--   **TextMate/Sublime**
--   **Pygments** (compatible with **Jekyll** static site generator)
--   **highlight.js**
--   **Prism.js** (original file by Ramón M. Cros).
+- **Visual Studio Code** (view in [Visual Studio
+  Marketplace](https://marketplace.visualstudio.com/items?itemName=dieghernan.skeletor-syntax))
+- **RStudio** in <https://dieghernan.github.io/rstudiothemes/>.
+- **TextMate/Sublime**
+- **Pygments** (compatible with **Jekyll** static site generator)
+- **highlight.js**
+- **Prism.js** (original file by Ramón M. Cros).
 
-```         
+```
 .
 ├── .github
 ├── assets
@@ -42,14 +42,14 @@ Available for:
 
 Skeletor Syntax supports `language-*` rules and is optimized for:
 
--   **HTML**
--   **CSS & SCSS**
--   **JavaScript**
--   **PHP**
--   **Markdown**
--   **YAML**
+- **HTML**
+- **CSS & SCSS**
+- **JavaScript**
+- **PHP**
+- **Markdown**
+- **YAML**
 
---------------------------------------------------------------------------------
+---
 
 ![Main
 Screenshot](https://raw.githubusercontent.com/dieghernan/skeletor-syntax/main/assets/screenshot.png)

@@ -6,7 +6,6 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#2B2836",
         "foreground": "#DCE7FD"
       }
     },
@@ -480,6 +479,7 @@
     "editorGroupHeader.tabsBackground": "#2E2A3A",
     "editorHoverWidget.background": "#2E2A3A",
     "editorHoverWidget.border": "#655E7F",
+    "editorIndentGuide.background1": "#bd93f91a",
     "editorLineNumber.foreground": "#655E7F",
     "editorLink.activeForeground": "#BD93F9",
     "editorRuler.foreground": "#464258",
@@ -551,7 +551,6 @@
     "tab.inactiveForeground": "#DCE7FD",
     "terminal.background": "#2B2836",
     "terminal.border": "#483D5D",
-    "terminal.cursor": "#BD93F9",
     "terminal.foreground": "#DCE7FD",
     "terminalCursor.background": "#2B2836",
     "terminalCursor.foreground": "#BD93F9",

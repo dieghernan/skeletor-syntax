@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plist>
+<plist version="1.0">
   <dict>
     <key>name</key>
     <string>Skeletor Syntax</string>
+    <key>author</key>
+    <string>Ramón M. Cros, ported by dieghernan, rstudiothemes R package</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>semanticClass</key>
+    <string>theme.dark.skeletor_syntax</string>
+    <key>comment</key>
+    <string>Generated with rstudiothemes R package</string>
+    <key>uuid</key>
+    <string>66336563-3835-4137-a335-386461666132</string>
     <key>settings</key>
     <array>
       <dict>
@@ -10,16 +20,20 @@
         <dict>
           <key>background</key>
           <string>#2B2836</string>
-          <key>caret</key>
-          <string>#BD93F9</string>
           <key>foreground</key>
           <string>#DCE7FD</string>
-          <key>invisibles</key>
-          <string>#464258</string>
-          <key>lineHighlight</key>
-          <string>#35323F</string>
           <key>selection</key>
           <string>#35323F</string>
+          <key>lineHighlight</key>
+          <string>#35323F</string>
+          <key>caret</key>
+          <string>#BD93F9</string>
+          <key>invisibles</key>
+          <string>#464258</string>
+          <key>guide</key>
+          <string>#BD93F91A</string>
+          <key>gutterForeground</key>
+          <string>#655E7F</string>
         </dict>
       </dict>
       <dict>
@@ -520,13 +534,5 @@
         </dict>
       </dict>
     </array>
-    <key>colorSpaceName</key>
-    <string>sRGB</string>
-    <key>semanticClass</key>
-    <string>theme.dark.skeletor_syntax</string>
-    <key>author</key>
-    <string>Ramón M. Cros, ported by dieghernan</string>
-    <key>comment</key>
-    <string>Based on primjs Skeletor Syntax</string>
   </dict>
 </plist>
